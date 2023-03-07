@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  margin-top: 20px;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  
+  font-size: 25px;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: 500ms;
+  
+}
+input:focus {
+  background-color: black;
+}
+
+.spinner-border {
+  visibility: hidden;
+  display: block;
+  
+  margin: auto;
+  margin-top: -70px;
+}
+
