@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* add some styling to the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  font-size: 15px;
+  
+}
+
+/* add padding and borders to table cells */
+td, th {
+  padding: 8px;
+  border: 1px solid #696969;
+}
+
+/* add background color to table header */
+th {
+  background-color: #666666;
+  text-align: left;
+}
