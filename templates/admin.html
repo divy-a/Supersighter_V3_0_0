@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script defer src="static/admin/script.js"></script>
+    <link rel="stylesheet" href="static/admin/style.css">
     <title>Admin</title>
 </head>
 <body>
-    
+    <input type="number", placeholder="Code", id="code">
+    <br>
+    <input type="url", placeholder="Download Address", id="durl">
+    <br>
+    <input type="text", placeholder="Key", id="key">
+    <br>
+    <input type="button" value="Update" onclick="login()", id="btn">
+    <br>
+    <div class="spinner-border" id="spin" role="status">
+        <span class="sr-only"></span>
+    </div>
 </body>
 </html>

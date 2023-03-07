@@ -4,11 +4,6 @@ from fuzzywuzzy import fuzz, process
 
 data = [] 
 allData = []
-with open('data_files/pokemon.csv', mode='r', encoding='utf-8') as file:
-    csvFile = csv.DictReader(file)
-    for lines in csvFile:
-        data.append(lines['name'])
-        allData.append(lines)
 
 def get_results(query, max_results, adv):
     starts_withs = []
